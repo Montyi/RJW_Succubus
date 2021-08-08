@@ -1,0 +1,28 @@
+<Defs>
+<!-- Player pawns -->
+    <PawnKindDef Abstract="True" Name="BaseSuccubusPawn">
+        <combatPower>100</combatPower>
+        <isFighter>false</isFighter>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <initialWillRange>10~25</initialWillRange>
+    </PawnKindDef>
+	
+	<PawnKindDef ParentName="BaseSuccubusPawn">
+        <defName>Succubus</defName>
+        <label>Succubus</label>
+        <defaultFactionType>PlayerDragonTribe</defaultFactionType>
+        <race>RJW_Succubus</race>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <apparelTags>
+        </apparelTags>
+        <apparelMoney>200~200</apparelMoney>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+        </techHediffsTags>
+        <techHediffsChance>0</techHediffsChance>
+        <initialResistanceRange>20~30</initialResistanceRange>
+    </PawnKindDef>
+
+</Defs>
